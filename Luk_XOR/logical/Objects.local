@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="2E64F9C0-CD4B-B003-39B0-CF0573FE15D2" name="FIRMA" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="C65EA044-5CD9-4BEE-448B-B8663B6840F2" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="9468EB3A-F68B-7246-AF9E-1DB4ED5EB03E" name="OSOBA" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="C65EA044-5CD9-4BEE-448B-B8663B6840F2" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="CF5E3994-3265-5362-4AB4-5568FB1BBA5C" name="FAKTURA" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="C65EA044-5CD9-4BEE-448B-B8663B6840F2" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="14F253AE-11C0-7413-CFE4-8BB553561347" name="Relation_2" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="C65EA044-5CD9-4BEE-448B-B8663B6840F2" propertySourceId="2E64F9C0-CD4B-B003-39B0-CF0573FE15D2" propertyTargetId="CF5E3994-3265-5362-4AB4-5568FB1BBA5C"/>
+   <object objectType="Relation" objectID="8CC7628A-79E4-A388-E684-022CADFD1DAB" name="Relation_1" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="C65EA044-5CD9-4BEE-448B-B8663B6840F2" propertySourceId="9468EB3A-F68B-7246-AF9E-1DB4ED5EB03E" propertyTargetId="CF5E3994-3265-5362-4AB4-5568FB1BBA5C"/>
+   <object objectType="Arc" objectID="77AC5324-D941-CFA7-74A0-DE17CF538133" name="Arc_1" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Arc" propertyParentId="C65EA044-5CD9-4BEE-448B-B8663B6840F2" propertySourceId="" propertyTargetId=""/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

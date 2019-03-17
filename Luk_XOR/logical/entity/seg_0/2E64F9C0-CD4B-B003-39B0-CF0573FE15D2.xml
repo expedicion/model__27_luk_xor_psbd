@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2E64F9C0-CD4B-B003-39B0-CF0573FE15D2" name="FIRMA">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-13 16:59:40 UTC</createdTime>
+<ownerDesignName>Luk_XOR</ownerDesignName>
+<engineerTo>
+<item key="DA104977-EC7E-1BBF-59FA-D443B1171ED1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="KOD_FIRMY" id="A5AA3235-8DAE-9065-2A1A-BA1365E591C6">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-13 16:59:49 UTC</createdTime>
+<ownerDesignName>Luk_XOR</ownerDesignName>
+<engineerTo>
+<item key="DA104977-EC7E-1BBF-59FA-D443B1171ED1" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NAZWA" id="E93F87E0-E63E-7020-B931-436BF5DBFDE8">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-13 16:59:58 UTC</createdTime>
+<ownerDesignName>Luk_XOR</ownerDesignName>
+<engineerTo>
+<item key="DA104977-EC7E-1BBF-59FA-D443B1171ED1" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NIP" id="CBD50695-DDEC-6581-40EC-6D61C5D9EE72">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-13 17:00:06 UTC</createdTime>
+<ownerDesignName>Luk_XOR</ownerDesignName>
+<engineerTo>
+<item key="DA104977-EC7E-1BBF-59FA-D443B1171ED1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2D6CE605-3951-CAC3-81D1-985F598A7E28" name="FIRMA PK">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-13 16:59:57 UTC</createdTime>
+<ownerDesignName>Luk_XOR</ownerDesignName>
+<engineerTo>
+<item key="DA104977-EC7E-1BBF-59FA-D443B1171ED1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A5AA3235-8DAE-9065-2A1A-BA1365E591C6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

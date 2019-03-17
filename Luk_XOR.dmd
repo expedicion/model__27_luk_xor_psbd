@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Luk_XOR" id="FA0FF2F8-A457-82CC-9184-A8EB59CB4B11" version="3.5">
+<createdBy>kozelski</createdBy>
+<createdTime>2019-03-13 16:55:32 UTC</createdTime>
+<ownerDesignName>Luk_XOR</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>FA0FF2F8-A457-82CC-9184-A8EB59CB4B11</designId>
+</OSDM_Design>
